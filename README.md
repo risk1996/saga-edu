@@ -30,7 +30,7 @@ To view a live demo, [click here](https://ryanfitzgerald.github.io/devblog/).
 
 #### 1. Install Gatsby CLI
 
-The first step is to get the GatsbyJS CLI installed locally. This can be accomplished by running the command ```npm install --global gatsby-cli```
+The first step is to get the GatsbyJS CLI installed locally. This can be accomplished by running the command ```yarn install --global gatsby-cli```
 
 #### 2. Create a new Gatsby Site using this repo
 
@@ -42,7 +42,7 @@ Now you that you are setup, you can simply use the blog or make edits as needed.
 
 #### Alternative Setup
 
-Alternatively, if you wish to simply fork this repo or clone it, then you simply need to run ```npm install``` and then ```gatsby develop``` afterwards and you'll be up and running.
+Alternatively, if you wish to simply fork this repo or clone it, then you simply need to run ```yarn install``` and then ```gatsby develop``` afterwards and you'll be up and running.
 
 ### Configuration
 
@@ -127,7 +127,7 @@ If you are unfamiliar with deploying React applications, there are a number of o
 
 In order to deploy to GitHub pages, you need to first set your path prefix in ```gatsby-config.js```. The default is ```pathPrefix: '/devblog'``` however this should be changed to whatever the repo name you chose is. For example, if you have the blog located in ```https://github.com/YOURUSERNAME/myblog``` and want it deployed to ```https://YOURUSERNAME.github.io/myblog``` then you would set the path prefix to ```pathPrefix: '/myblog'```.
 
-Next, simply run ```npm run deploy``` and your blog will be deployed.
+Next, simply run ```yarn run deploy``` and your blog will be deployed.
 
 Alternatively, if you wish to deploy it to ```https://YOURUSERNAME.github.io``` (i.e. your user / organization site and not a porject site), then a couple addition changes are required. The official Gatsby documentation has them outlined well [here](https://YOURUSERNAME.github.io).
 
